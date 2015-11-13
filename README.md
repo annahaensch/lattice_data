@@ -1,4 +1,4 @@
-# lattice_data
+# Lattice data
 
 In this repository we will store the raw data for the [Lattices database](https://github.com/LMFDB/lmfdb-inventory/blob/master/db-Lattices.md) for [LMFDB](https://github.com/LMFDB/lmfdb).
 
@@ -22,9 +22,9 @@ Each line in a data file correspond to one integral lattice and it is a list con
 
 If a field os unknown, it will be inserted as "". 
 For example, this is a line corresponding to a lattice:
-
+```
 [2,114,228,[[5,1],[1,23]],"0.367796388140185506419151585313","0.468292905790846982930329998491",5,2,[[1,0]],2,"",1,[[[5,1],[1,23]]],"",""]
-
+```
 In this example, the fields corresponding to the theta series coefficients, name and comment are not known (meaning not computed by the person who upload the data) and so are inserted as "". 
 
 The order of the entries is fixed: if the data is given in a different order, this needs to be recorded before inserting this in the LMFDB database.
