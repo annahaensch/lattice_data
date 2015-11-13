@@ -31,7 +31,7 @@ The order of the entries is fixed: if the data is given in a different order, th
 
 This Repository contains the following files:
 
-1. compiled-data: This contains the data on class number 1 lattices, it was uploaded on November 11th.
+1. compiled-data: This contains the data on class number 1 lattices, uploaded on November 11th.
 
 2. raw-data: This is the ascii file from the original Lorch and Kirschmer paper.
 
