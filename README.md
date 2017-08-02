@@ -29,10 +29,17 @@ In this example, the fields corresponding to the theta series coefficients, name
 
 The order of the entries is fixed: if the data is given in a different order, this needs to be recorded before inserting this in the LMFDB database.
 
-This Repository contains the following files:
+The labeing scheme for lattices will be as follows,
 
-1. **compiled-data**: This contains the data on class number 1 lattices, uploaded on November 11th.
+***dimension.negative_part_of_signature.determinant.level.genus_enumerator.class_enumerator***
 
-2. **raw-data**: This is the ascii file from the original Lorch and Kirschmer paper.
+where 
 
-3. **raw-data-list**: This takes the ascii file and turns each line into a list item to be ready by Magma. 
+* negative_part_of_signature will most likely be 0 since at present the database only contains positive definite integral lattices.
+* genus_enumerator counts over the genera of a fixed dimension, determinant, and level. 
+* class_enumerator counts over the classes of a fixed genus.
+
+
+
+
+ 
