@@ -5,6 +5,7 @@ In this repository we will store the raw data for the [Lattices database](https:
 Each line in a data file correspond to one integral lattice and it is a list containing the following items: 
 
 * dimension, (integer)
+* negative_part_of_signature, (integer)
 * determinant, (integer)
 * level, (integer)
 * Gram matrix, (list of rows with integer entries) 
