@@ -15,7 +15,6 @@ Each line in a data file correspond to one integral lattice and it is a list con
 * kissing number, (integer)
 * [list of shortest vectors],  (list of lists of integers)
 * [size of aut. group, number of generator, [list of generators as matrices], group structure], (list of [int, int, [lists of ints], string, string])
-* [theta series (coefficients)], (list of integers)
 * class number, (integer)
 * [list of matrices for genus representatives], (list of lists rows with integer entries)
 * "name", (string)
